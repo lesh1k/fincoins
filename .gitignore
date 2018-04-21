@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# Custom
+data/*
+!data/.gitignore
+exchange-rates/*
+!exchange-rates/.gitignore

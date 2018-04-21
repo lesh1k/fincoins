@@ -1,0 +1,9 @@
+{
+  "name": "fincoins",
+  "version": "0.0.0",
+  "description": "Scripts to facilitate migration from Financius to Bluecoins",
+  "main": "lib/index.js",
+  "repository": "git@github.com:lesh1k/fincoins.git",
+  "author": "Alexei Dvorac <lexhxas@gmail.com>",
+  "license": "MIT"
+}
