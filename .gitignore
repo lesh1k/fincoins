@@ -60,5 +60,8 @@ typings/
 # Custom
 data/*
 !data/.gitignore
+!data/in/.gitignore
+!data/pre/.gitignore
+!data/out/.gitignore
 exchange-rates/*
 !exchange-rates/.gitignore
