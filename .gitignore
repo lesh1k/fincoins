@@ -65,3 +65,4 @@ data/*
 !data/out/.gitignore
 exchange-rates/*
 !exchange-rates/.gitignore
+!exchange-rates/out.csv
