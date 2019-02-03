@@ -9,9 +9,7 @@
   "dependencies": {
     "better-sqlite3": "^5.4.0",
     "exchange-rates": "https://github.com/lesh1k/exchange-rates.git",
-    "moment": "^2.24.0",
-    "sqlite": "^3.0.1",
-    "sqlite3": "^4.0.0"
+    "moment": "^2.24.0"
   },
   "devDependencies": {
     "eslint": "^5.13.0",
