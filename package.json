@@ -4,12 +4,21 @@
   "description": "Scripts to facilitate migration from Financius to Bluecoins",
   "main": "lib/index.js",
   "repository": "git@github.com:lesh1k/fincoins.git",
-  "author": "Alexei Dvorac <lexhxas@gmail.com>",
+  "author": "Alexei Dvorac <i@leshik.io>",
   "license": "MIT",
   "dependencies": {
     "better-sqlite3": "^5.4.0",
     "exchange-rates": "https://github.com/lesh1k/exchange-rates.git",
+    "moment": "^2.24.0",
     "sqlite": "^3.0.1",
     "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4"
   }
 }
