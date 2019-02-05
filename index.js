@@ -1,5 +1,1 @@
-const migrate = require('./lib/index');
-
-module.exports = {
-  migrate,
-};
+module.exports = require('./lib/index');

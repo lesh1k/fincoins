@@ -1,5 +1,5 @@
-const migrate = require('./');
+const fincoins = require('./');
 
 (async () => {
-  await migrate();
+  await fincoins.csv();
 })();
