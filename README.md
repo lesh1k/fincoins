@@ -34,8 +34,8 @@ const fincoins = require('./');
 (async () => {
   await fincoins.csv();
 })();
-
 ```  
+Note that you can also `dry-run` the script with your data using `console.log(await fincoins.dryRun())` instead. This would print resulting accounts with name and balance.  
 5. The generated CSV can be found in `./data/out/transactions.csv`. Copy the file to your phone and using `Bluecoins` -> `Settings` -> `Import Data` -> `Excel (.csv)`. Make sure to select `Advanced Version`. You might need to wait a while till the import completes.  
 6. You can find skipped transactions (if any) in `./data/out/skipped.json`. Add these manually if needed.  
 7. Done! (I suggest going to `Accounts` and verifying that everything is correct)  
