@@ -43,7 +43,7 @@ const fincoins = require('./');
 NOTE: In case the results are slightly off, this is due to exchange rates difference (be happy it worked). In case these are wildly off, most probably there are some rogue transactions in your input set (same thing that happened to me). Try debugging and finding the culprit. The starting point could be `Bluecoins` -> `Accounts` -> `(Account with issues)` -> `List of transactions` -> `Chart` (here you should be able to see unexpected spikes and determine where it all went wrong.)
 
 ## Generate Bluecoins .fydb database  
-**Beware: This method is prone to errors and might not work if Bluecoins DB schema gets updated.**  
+**Beware: This method is the earlier approach and as of 2019-02-08 does not work (inserts transactions as transfers). Seems that Bluecoins DB was changed.**  
 1. Go to `Bluecoins` -> `Settings` -> `Local backup` and do a `Backup to phone storage`. This `.fydb` will serve as the base for migration script.
 2. Place the DB in `./data/in` directory and rename it to `bc.fydb`  
 3. Run the script e.g. `example.js`:
