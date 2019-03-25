@@ -23,7 +23,7 @@ and suffer from imprecisions due to currency exchange rates difference.
 NOTE: Make sure you are connected to the internet on the first run of the script, since it will generate a JSON with historical exchange rates.  
 NOTE 2: There's also a [config](./lib/config.js) that you can use to update any of the paths.  
 
-## [Suggested] Generate CSV per Bluecoins adavanced import CSV template  
+## [Suggested] Generate CSV per Bluecoins advanced import CSV template  
 1. Download the [Advanced CSV Template]( https://drive.google.com/open?id=19F7NynA6ec36jC1qIDjdSXQpfwlYnPvw) and move it to `./data/in/template.csv`.  
 2. In Bluecoins create all accounts and make sure to set the correct currency for these.  
 3. Go to `Bluecoins` -> `Settings` -> `Local backup` and do a `Backup to phone storage`. This `.fydb` will serve as a reset point in case the output is wrong and you need to adjust the script.  
